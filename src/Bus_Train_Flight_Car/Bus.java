@@ -31,21 +31,20 @@ class Bus {
 /*
 Bus-Step-1 ...
 Bus-Step-2 ...
-pool-1-thread-1: Go to the airport
 Train: Go to the station
-Train: Station-Step-1
+pool-1-thread-1: Go to the airport
+Car: Depart
 pool-1-thread-1: Airport-Step-1
+Train: Station-Step-1
 pool-1-thread-1: Airport-Step-2
-Train: Depart
 pool-1-thread-1: Depart
+Train: Depart
 pool-1-thread-1: Arrive
 pool-1-thread-1: Airport-Step-3
 pool-1-thread-1: Airport-Step-4
 pool-1-thread-1: Waiting for the bus
+Car: Arrive
 Train: Arrive
 Train: Station-Step-2
 Train: Waiting for the bus
-Bus-Step-3 ...
-Bus-Step-4 ...
-Bus-Step-5 ...
  */
